@@ -19,7 +19,7 @@ use App\Models\User;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Hello
+
 
 Route::get('', fn()=>to_route('jobs.index'));
 // dùng Route::resource('jobs', JobController::class ); tạo ra các route chuẩn như sau:
